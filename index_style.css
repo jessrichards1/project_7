@@ -20,7 +20,7 @@ h1{
 	font-size: 70px;
 	color: #60b2a8;
 	text-align: left;
-	margin-left: 65px;
+	
 	margin-top: 30px;
 	padding-bottom: 15px;
 	border-bottom: solid 4px #641368;
@@ -38,10 +38,10 @@ body {
 }
 
 nav li {
-	max-width: 150px;
+	max-width: 125px;
 	padding: 5px;
 	margin-top: 30px;
-	margin-left: 30px;
+	
 	text-decoration: none;
 	border: 2px solid #97c444 ;
 	list-style-type: none;
@@ -56,21 +56,24 @@ a{
 a:hover {
 	color: #fca52a;
 
+
 }
 
 
-@media screen and (min-width:320px) {nav li { width:75%; font-size: 13px; margin-right: 40px;}
+@media screen and (min-width:320px) {nav li { width:40%; font-size: 13px; margin-right: 40px;}
 h1{
 		font-size: 30px;
+		margin-left: 15px;
 }  
 
 
 
 }
-@media screen and (min-width:600px) {nav li { width:75%;font-size: 13px; margin-right: 30px;}
+@media screen and (min-width:600px) {nav li { width:40%;font-size: 13px; margin-right: 30px;}
 h1{
 
  	font-size: 40px;
+ 	margin-left: 25px;
 }  
 
   
@@ -79,6 +82,7 @@ h1{
 h1{
 
  	font-size: 60px;
+ 	margin-left: 30px;
 }  
  
 
@@ -86,12 +90,14 @@ h1{
 h1{
 
  	font-size: 70px;
+ 	margin-left: 40px;
 }  
 
 @media screen and (min-width:900px) {nav li { width:20%;font-size: 20px; margin-right: 10px;}
 h1{
 
  	font-size: 70px;
+ 	margin-left: 40px;
 } 
 
 
@@ -99,6 +105,7 @@ h1{
 h1{
 
  	font-size: 70px;
+ 	margin-left: 40px;
 } 
   
 
