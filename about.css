@@ -26,6 +26,23 @@ h1{
 	border-bottom: solid 4px #641368;
 
 }
+
+.color{
+	color: #fca52a;
+}
+
+img{
+
+	max-width: 100%;
+	margin: auto 0 ;
+	position: relative;
+	margin-top: -170px;
+	margin-bottom: 220px;
+	
+
+}
+
+
 p{
 	font-family: 'Varela Round', sans-serif;
 	text-align: left;
@@ -40,6 +57,7 @@ p{
 
 
 }
+
 body {
 
 	font-family: 'Varela Round', sans-serif;
@@ -50,36 +68,21 @@ body {
 	text-decoration: none;
 }
 
-nav {
-	margin-top: -850px;
-	position: fixed;
-}
+
 
 nav li {
-	
+	max-width: 125px;
 	padding: 5px;
+	margin-top: 30px;
 	font-family: 'Varela Round', sans-serif;
 	text-decoration: none;
 	border: 2px solid #97c444 ;
 	list-style-type: none;
 	position: relative;
-	margin-top: 30px;
-
 
 }
 
 
-img{
-	max-width: 50%;
-	position: relative;
-	display: block;
-	margin: auto 0 ;
-	padding-left: 350px;
-	margin-top: 30px;
-
-	
-
-}
 
 a{
 	text-decoration: none;
@@ -177,7 +180,6 @@ h1{
  	font-size: 70px;
  	margin-left: 40px;
 } 
-
 
 p{
 	position: absolute;
