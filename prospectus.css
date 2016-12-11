@@ -39,6 +39,42 @@ p{
 
 
 
+}
+body {
+
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+	margin: auto 0;
+	text-decoration: none;
+}
+nav {
+	margin-top: -1685px;
+}
+
+nav li {
+	
+	padding: 5px;
+	font-family: 'Varela Round', sans-serif;
+	text-decoration: none;
+	border: 2px solid #97c444 ;
+	list-style-type: none;
+	position: relative;
+	margin-top: 20px;
+
+
+}
+img{
+	max-width: 50%;
+	position: absolute;
+	display: block;
+	margin: auto 0 ;
+	padding-left: 350px;
+	margin-top: -190px;
+	margin-bottom: 200px;
+
+}
 
 a{
 	text-decoration: none;
@@ -115,7 +151,8 @@ h1{
 }  
 img{
 	max-width: 50%;
-	position: absolute;
+	position: relative;
+	display: block;
 	margin: auto 0 ;
 	padding-left: 290px;
 	margin-top: -190px;
